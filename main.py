@@ -1,7 +1,6 @@
 # free-model-aggregator-02 entry
-# High-performance, resilient free-model aggregator and proxy in Python 3.13 stdlib.
-# Serves OpenAI Chat Completions and Anthropic Messages (JSON & SSE streaming).
-# Truthfully routes each prompt to the highest-rated free OpenRouter model with failover.
+# Autonomous free-model proxy and aggregator server authored in Python 3.13 stdlib.
+# Truthfully routes client completions to the highest-rated free OpenRouter model with failover.
 
 import json
 import math
@@ -1127,3 +1126,4 @@ def main() -> int:
 
 if __name__ == '__main__':
     raise SystemExit(main())
+
